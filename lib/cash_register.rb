@@ -32,7 +32,9 @@ def apply_discount
 end
 
 def void_last_transaction
-  
+  self.last_transaction[1] = price *   self.last_transaction[2] = quantity
+
+
 
 end
 
