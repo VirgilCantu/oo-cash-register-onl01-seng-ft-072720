@@ -20,8 +20,8 @@ def apply_discount
     puts "There is no discount to apply."
   else
     discount = self.total * self.discount.to_f * 0.01
-    self.total - discount
-    puts "After the discount, the total comes to $#{self.total - discount}."
+    total = self.total - discount
+    puts "After the discount, the total comes to $#{total.to_i}."
     binding.pry
 
   end
