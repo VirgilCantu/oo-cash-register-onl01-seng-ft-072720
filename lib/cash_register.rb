@@ -32,7 +32,7 @@ def apply_discount
 end
 
 def void_last_transaction
-  self.total - self.last_transaction[1] * self.last_transaction[2]
+  self.total = self.total - self.last_transaction[1] * self.last_transaction[2]
 
 
 end
