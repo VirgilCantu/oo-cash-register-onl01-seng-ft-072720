@@ -32,7 +32,7 @@ def apply_discount
 end
 
 def void_last_transaction
-  
+  self.items
   binding.pry
 
 
