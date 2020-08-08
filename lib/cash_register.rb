@@ -16,7 +16,7 @@ end
 
 def apply_discount
   self.total - (self.total * (self.discount.to_f * 0.01)) 
-  
+
 end
 
 
