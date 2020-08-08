@@ -14,6 +14,10 @@ def add_item(title, price, quantity = 1)
   self.total = self.total.to_f + price * quantity
 end
 
+def apply_discount
+
+
+end
 
 
 end
