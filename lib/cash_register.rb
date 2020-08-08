@@ -16,7 +16,7 @@ end
 
 def apply_discount
 
-  if self.discount = 0
+  if self.discount == 0
     puts "There is no discount to apply."
     binding.pry
   else
