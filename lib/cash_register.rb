@@ -16,6 +16,7 @@ end
 
 def apply_discount
   self.total
+  binding.pry
 
 end
 
