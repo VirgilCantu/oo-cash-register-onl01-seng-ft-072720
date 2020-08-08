@@ -28,8 +28,8 @@ def apply_discount
 end
 
 def void_last_transaction
-
-
+ if self.items = []
+ end
 end
 
 end
