@@ -33,6 +33,5 @@ def void_last_transaction
  end
 end
 
-end
 
 end
