@@ -32,7 +32,8 @@ def apply_discount
 end
 
 def void_last_transaction
-  self.last_transaction[0] * self.last_transaction[2] = quantity
+  self.last_transaction[0] * self.last_transaction[2]
+  binding.pry
 
 
 
