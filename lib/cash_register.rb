@@ -17,7 +17,7 @@ end
 def apply_discount
 
   if self.discount == 0
-    puts "There is no discount to apply."
+    "There is no discount to apply."
   else
     discount = self.total * self.discount.to_f * 0.01
     total = self.total - discount
