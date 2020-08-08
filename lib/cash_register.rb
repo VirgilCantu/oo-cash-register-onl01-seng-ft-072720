@@ -15,6 +15,9 @@ def add_item(title, price, quantity = 1)
 end
 
 def apply_discount
+
+  if self.discount = 0
+
   discount = self.total * self.discount.to_f * 0.01
   self.total - discount
   puts "After the discount, the total comes to $#{self.total - discount}."
