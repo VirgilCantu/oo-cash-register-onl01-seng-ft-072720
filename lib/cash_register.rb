@@ -21,7 +21,7 @@ def apply_discount
   else
     discount = self.total * self.discount.to_f * 0.01
     self.total = self.total - discount
-    "After the discount, the total comes to $#{total.to_i}."
+    "After the discount, the total comes to $#{self.total.to_i}."
   end
 end
 
