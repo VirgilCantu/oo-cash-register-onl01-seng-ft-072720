@@ -15,6 +15,7 @@ end
 def add_item(title, price, quantity = 1)
   self.items.concat([title] * quantity)
   self.total = self.total.to_f + price * quantity
+  
 end
 
 def apply_discount
