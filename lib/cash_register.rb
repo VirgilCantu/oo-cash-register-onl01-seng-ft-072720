@@ -13,4 +13,7 @@ end
 def add_item(title, price, quantity = 1)
   self.total.to_f + price * quantity
 end
+
+
+
 end
