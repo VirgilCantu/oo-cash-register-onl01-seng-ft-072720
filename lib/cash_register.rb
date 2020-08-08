@@ -18,7 +18,6 @@ def add_item(title, price, quantity = 1)
   self.last_transaction[0] = title
   self.last_transaction[1] = price
   self.last_transaction[2] = quantity
-  binding.pry
 end
 
 def apply_discount
