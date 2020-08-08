@@ -15,7 +15,8 @@ def add_item(title, price, quantity = 1)
 end
 
 def apply_discount
-  self.total * (self.discount.to_f * 0.01) 
+  self.total - (self.total * (self.discount.to_f * 0.01)) 
+  
 end
 
 
