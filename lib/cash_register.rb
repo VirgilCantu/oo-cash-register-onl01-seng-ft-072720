@@ -27,5 +27,9 @@ def apply_discount
   end
 end
 
+def void_last_transaction
+end
+  
+end
 
 end
