@@ -32,7 +32,7 @@ def apply_discount
 end
 
 def void_last_transaction
-  self.items.delete_if? {|item| item == self.last_transaction[0]}
+  self.items.delete_if {|item| item == self.last_transaction[0]}
   binding.pry
 
 end
