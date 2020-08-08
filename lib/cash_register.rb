@@ -16,7 +16,7 @@ end
 
 def apply_discount
   discount = self.total * self.discount.to_f * 0.01
-  binding.pry
+  self.total - discount
 
 end
 
