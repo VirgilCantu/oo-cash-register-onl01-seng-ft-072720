@@ -29,8 +29,6 @@ end
 
 def void_last_transaction
  if self.items == []
-   binding.pry
-
    self.total = 0.0
  end
 end
