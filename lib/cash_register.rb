@@ -11,7 +11,7 @@ def initialize(discount = 0)
 end
 
 def add_item(title, price, quantity = 1)
-  self.total + price.to_i
+  self.total + price.to_i * quantity
   binding.pry
 end
 end
