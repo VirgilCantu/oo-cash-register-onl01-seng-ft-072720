@@ -12,6 +12,7 @@ end
 
 def add_item(title, price, quantity = 1)
   self.total = self.total.to_f + price * quantity
+  binding.pry
 end
 
 def apply_discount
