@@ -18,6 +18,7 @@ def apply_discount
 
   if self.discount = 0
     puts "There is no discount to apply."
+    binding.pry
   else
     discount = self.total * self.discount.to_f * 0.01
     self.total - discount
