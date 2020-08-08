@@ -17,6 +17,7 @@ end
 def apply_discount
   discount = self.total * self.discount.to_f * 0.01
   self.total - discount
+  puts "After the discount, the total comes to $800."
 
 end
 
