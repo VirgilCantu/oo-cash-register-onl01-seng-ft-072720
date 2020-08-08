@@ -12,5 +12,6 @@ end
 
 def add_item(title, price, quantity = 1)
   self.total + price.to_i
+  binding.pry
 end
 end
